@@ -1,0 +1,18 @@
+/* project colors  */
+.VerydarkCyan{
+    background-color:hsl(183, 100%, 15%);
+}
+.Darkgrayishcyan{
+    background-color: rgb(45, 146, 146);;
+}
+
+.Lightgrayishcyan{
+    color: hsl(185, 41%, 84%)
+}
+.LighgrayishCyan {
+    color:hsl(189, 41%, 97%)
+}
+.White{
+     color: hsl(0, 0%, 100%)
+}
+

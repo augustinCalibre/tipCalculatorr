@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <!-- font familly import link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- style link -->
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/defaultstyle.css">
+<!-- Style font familly -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+</style>
+
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+
+  <div class="maincontent Darkgrayishcyan">
+
+    <div class="logo">
+      <img src="images/logo.svg" alt="" srcset="">
+    </div>
+
+    <div class="content">
+  
+      <!-- Input Text 1 -->
+      <div class="text1">
+        
+    
+        <div class="inputText">
+           <p>Bill</p>
+            <div class="inputco">
+              <img src="images/icon-dollar.svg" alt="" srcset="">
+              <input id="input1" value="" class="VerydarkCyan" type="number" name=""   id="">
+              
+            </div>
+            <span class="verif" id='verif'></span>
+            
+        </div>
+<!-- Select type  -->
+        <div class="SelectTip">
+
+          <p id="test">select tip %</p>
+          <div class="buttonview ">
+            <input class="VerydarkCyan" type="button" value="5%">
+            <input class="VerydarkCyan" type="button" value="10%">
+            <input class="VerydarkCyan" type="button" value="15%">
+            <input class="VerydarkCyan" type="button" value="25%">
+            <input class="VerydarkCyan" type="button" value="50%">
+            <input class="VerydarkCyan" type="button" value="custom">
+          </div>
+        </div>
+
+        <!-- input text 2 -->
+
+        <div class="inputText ">
+          <p>Number of People</p>
+          <div class="inputco">
+            <img src="images/icon-dollar.svg" alt="" srcset="">
+            <input id="input2" class="VerydarkCyan" type="number" name=""   value="" id="">
+
+            
+          </div>
+        </div>
+      </div>
+
+
+        <div class="footercontent VerydarkCyan">
+         
+          <div class="foottercontener">
+            <div class="footercontent1">
+              <p> Tipe Amount </p>
+              <p class="pers"> /personne </p>
+             </div>
+            <div class="footercontent1">
+              <p id='AmoutOne' class="tarif">0</p>
+            </div>
+          </div>
+
+          <div class="foottercontener">
+            <div class="footercontent1">
+              <p  id='test2' > Tipe Amount </p>
+              <p class="pers"> /personne </p>
+            </div>
+            <div class="footercontent1">
+              <p id='AmoutTwo' class="tarif">0</p>
+            </div>
+          </div>
+
+          <input class="Darkgrayishcyan button2"   type="button" value="RESET">
+
+
+
+        </div>
+
+
+    </div>
+
+  </div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
